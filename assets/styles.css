@@ -1,3 +1,9 @@
+*{
+    background-color: rgb(38, 16, 88);
+    color: white;
+}
+
+
 .fightarea {
     display: flex;
     gap: 20px;
@@ -10,7 +16,7 @@
 
 .lifebar{
     height: 10px;
-    border: 1px solid #333;
+    border: 1px solid #f0f0f0;
     border-radius: 5px;
 }
 
@@ -19,6 +25,11 @@
     background-color: red;
     border-radius: 5px;
     width: 10%
+}
+
+.attackButton {
+    background-color: aquamarine;
+    color: black;
 }
 
 .log{
