@@ -1,6 +1,7 @@
 *{
-    background-color: rgb(38, 16, 88);
+    background-color: #0A0C1B;
     color: white;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -18,22 +19,40 @@
     height: 10px;
     border: 1px solid #f0f0f0;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .lifebar .bar{
     height: inherit;
     background-color: red;
     border-radius: 5px;
-    width: 10%
+    width: 10%;
 }
 
 .attackButton {
-    background-color: aquamarine;
-    color: black;
+    background-color: #252158;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; 
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.attackButton:hover {
+    background-color: #1c1a4e; /* Mudar cor de fundo ao passar o mouse */
 }
 
 .log{
-    border: 1px dotted #999;
-    height: 200px;
+    border: 1px dashed #999;
+    height: 300px;
     overflow-y: scroll;
+    margin-top: 30px;
 }
