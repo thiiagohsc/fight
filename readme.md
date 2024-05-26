@@ -1,4 +1,4 @@
-[Web Version](./assets/images/Design.png)
+![Web Version](./assets/images/Design.png)
 
 ### Sobre o jogo
 
