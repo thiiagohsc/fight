@@ -376,3 +376,10 @@ body {
         transition-duration: 0.001ms !important;
     }
 }
+
+/* O atributo HTML `hidden` precisa ganhar de display:flex das classes acima */
+.character-select[hidden],
+.fightarea[hidden],
+.overlay[hidden] {
+    display: none;
+}
